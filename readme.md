@@ -3,8 +3,14 @@
 - flask
 - flask-restful
 - requests
-- gunicorn
-- gevent
+
 ## 运行环境
 
 - python≥3.5
+
+## 运行
+  > app.py
+  
+## 访问
+
+- http://localhost:86
