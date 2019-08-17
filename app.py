@@ -17,7 +17,7 @@ class STUDENT:
 		return ver_img
 
 	def get_score(self, DANGCI, v):
-		# http://cache.neea.edu.cn/cet/query?data=CET4_191_DANGCI,420640191107626,熊维建&v=yfp5
+  		# http://cache.neea.edu.cn/cet/query?data=CET4_191_DANGCI,420640191107626,熊维建&v=yfp5
 		params = {
 			'data': '{},{},{}'.format(DANGCI, self.num, self.name),
 			'v': v
