@@ -1,7 +1,6 @@
 from flask_restful import Api, Resource
 from flask import Flask, request, render_template
 import requests
-
 class STUDENT:
 	
 	def __init__(self, num, name):
@@ -70,4 +69,4 @@ api.add_resource(SCORE, '/score')
 def index():
   	return render_template('index.html')
 if __name__ == '__main__':
-	app.run(debug=True, port=86, host='0.0.0.0')
+	app.run(debug=False, port=8080, host='0.0.0.0')
