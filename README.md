@@ -17,7 +17,7 @@
 
 ## 运行
 ```shell
-> git clone https://github.com/NomadJohn/CET4
+> git clone https://github.com/vaakian/CET4
 > cd CET4
 > pip3 install flask flask-restful requests
 > python3 app.py
